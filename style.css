@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: lightpink;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+
+.name-color{
+    color: orangered;
+}
+
+section{
+    display: flex;
+}
+
+.bg{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.bg img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+}
+.button:hover{
+    background-color: lightseagreen;
+    color: black;
+}
+
