@@ -15,12 +15,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 
 .name-color{
     color: orangered;
 }
 
-section{
+.flexi{
     display: flex;
 }
 
@@ -68,4 +71,40 @@ button{
 .tra img{
     width: 80%;
     padding-right: 20%;
+}
+
+
+
+.ex{
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+.box{
+    width: 50%;
+    padding: 5%;
+    padding-top: 5%;
+    background-color: white;
+    margin: 5%;
+    height: 50%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    border-left: 10px solid red;
+    border-image-slice: 1;
+    /* background-image: linear-gradient(pink,
+     red); */
+}
+
+#box2{
+    border-left: 10px solid gold;
+    border-image-slice: 1;
+    /* background-image: linear-gradient(lightpink,
+     orange); */
+}
+
+.footer{
+    text-align: center;
+    background-color: darksalmon;
+    
+    
 }
